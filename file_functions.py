@@ -50,8 +50,6 @@ def save_file(file_name, binary_str):
     while len(binary_str) % 8 != 0:
         binary_str = '1' + binary_str
 
-    print('\nFinal binary string: \n' + binary_str)
-
     # Split the binary sequence in 8 bits each to complete a Bytes
     binary_list = decompressor.list_generator(binary_str, 8)
 

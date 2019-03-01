@@ -1,6 +1,6 @@
 # mthCompressor
 
-  This is a text compressor that i made based on Huffman coding, where i turn the characters in the file to bits, in a way that i can do
+  This is a text compressor that I made based on Huffman coding, where I turn the characters in the file to bits, in a way that I can do
   the reverse process.
   
 ## How it works:

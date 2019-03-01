@@ -96,10 +96,6 @@ def compress(file):
     key = key_genarator.key_generator(input_list)
     final_output = key + output_str
 
-    print('Key to decompress: \n' + key)
-    print('Compressed file: \n' + output_str)
-    print('Full file: \n' + final_output)
-
     file_functions.save_file(input_name, final_output)
 
     print("\nThe file " + input_name + " was compressed without any errors!")
